@@ -1,0 +1,31 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": { 
+        "no-any": true,
+        "max-classes-per-file": [true, 1],
+        "max-file-line-count": [true, 300],
+        "file-header": [
+            true,
+                {
+                  "match": "Copyright \\d{4}",
+                  "allow-single-line-comments": true,
+                  "default": "Copyright 2018",
+                  "enforce-trailing-newline": true
+                }
+            ],
+        "eofline": true,
+        "no-irregular-whitespace": true
+
+
+ 
+    
+    
+    
+    
+    },
+    "rulesDirectory": []
+}
